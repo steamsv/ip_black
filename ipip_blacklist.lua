@@ -1,4 +1,4 @@
-ip_bind_time = 30  --封禁IP多长时间
+ip_bind_time = 600  --封禁IP多长时间
 ip_time_out = 60    --指定统计ip访问频率时间范围
 connect_count = 10 --指定ip访问频率计数最大值
 --上面的意思就是6秒内访问超过10次，自动封 IP 30秒。
