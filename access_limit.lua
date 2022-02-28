@@ -19,11 +19,11 @@ local redis_port = "6379"
 --redis auth
 local redis_auth = "123456789";
 --封禁IP时间（秒）
-local ip_block_time= 86400
+local ip_block_time= 120
 --指定ip访问频率时间段（秒）
-local ip_time_out = 60
+local ip_time_out = 1
 --指定ip访问频率计数最大值（次）
-local ip_max_count = 60
+local ip_max_count = 3
 
 
 --  错误日志记录
